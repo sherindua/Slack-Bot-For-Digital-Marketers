@@ -1,3 +1,4 @@
+
 ## SlackBot – Quick Start (Socket Mode)
 
 ### 1) Create a Slack app
@@ -58,3 +59,4 @@ The bot runs in Socket Mode and listens for `@mention` events. Mention the bot a
   - `SUPABASE_SERVICE_ROLE_KEY`
 - Minimal schema includes `batches` and `keywords` with `embedding vector(384)`.
 - The app will detect env and, when present, embed keywords with a local model and insert rows.
+
